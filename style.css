@@ -1,0 +1,61 @@
+:root {
+    --color-green: #50fa7b;
+    --color-rocket: #7159c1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 940px;
+    text-decoration: none;
+}
+
+.links {
+    padding: 30px;
+}
+
+header img {
+    margin-right: 120px;
+}
+
+.banner {
+    background: #FBDFDB;
+    position: relative;
+    border-radius: 30px;
+    max-width: 940px;
+    height: 366px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-img {
+    height: 300px;
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+}
+
+.banner-text {
+    position: absolute;
+    max-width: 340px;
+    left: 60px;
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.banner-text h2 {
+    opacity: 0.7;
+    font-size: 18px;
+    font-weight: 200;
+    color: #000000;
+    line-height: 28px;
+}
